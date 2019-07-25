@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const token = 'NjAyNjQ0MDA5OTY1NTg0NDA0.XTkiqQ.i79VXAPC6cK6sRCg1JKJwmU7h5k';
+const token = '';
 const ytdl = require('ytdl-core');
 const Youtube = require('simple-youtube-api');
 const GOOGLE_API_KEY = 'AIzaSyAub38saSdDOGAdUuN0eTyYtn2cNeI5MOU'
@@ -169,4 +169,4 @@ function play(guild, song) {
 dispather.setVolumeLogarithmitic(5 / 5);
 }
 
-client.login(token);
+client.login(process.env.token);
