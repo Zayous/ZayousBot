@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const token = 'NjAyNjQ0MDA5OTY1NTg0NDA0.XTUCVg.2sju8zl_ZZ9D0S-2j1uzG7ld_T8';
+const token = 'NjAyNjQ0MDA5OTY1NTg0NDA0.XTkiqQ.i79VXAPC6cK6sRCg1JKJwmU7h5k';
 const ytdl = require('ytdl-core');
 const Youtube = require('simple-youtube-api');
 const GOOGLE_API_KEY = 'AIzaSyAub38saSdDOGAdUuN0eTyYtn2cNeI5MOU'
