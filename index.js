@@ -169,4 +169,4 @@ function play(guild, song) {
 dispather.setVolumeLogarithmitic(5 / 5);
 }
 
-client.login(process.env.token);
+client.login(token);
