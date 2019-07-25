@@ -12,7 +12,7 @@ global.servers - {};
 
 client.on('ready', () => {
     console.log('Bot is now connected');
-    client.user.setActivity('on delaformc.serv.nu')
+    client.user.setGame('on delaformc.serv.nu')
     client.on('message', async (message) => { 
         
         const args = message.content.split(' ');
